@@ -12,3 +12,9 @@ jobs:
       - name: Say hello
         run: |
           echo "Hello World!"
+  it_is_job:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: It is
+        run: |
+          echo date
